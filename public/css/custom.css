@@ -1,0 +1,16 @@
+.btn-group-xs {
+    padding: 0px;
+}
+
+.btn {
+    padding: 0px 12px;
+    border: 0px solid transparent;
+}
+
+.resume_btn {
+    line-height: 5;
+}
+
+.reel_btn {
+    line-height: 5.5;
+}
