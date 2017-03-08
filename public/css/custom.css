@@ -43,7 +43,8 @@ span {
 }
 
 .navbar-brand {
-    padding: 15px 15px;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
 }
 
 h2 {
