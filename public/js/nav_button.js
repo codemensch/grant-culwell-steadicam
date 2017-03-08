@@ -1,5 +1,6 @@
 $(document).ready(function(){
     //MainNav
+    /*
     $(".container").load("reels.html", function(){});
     $("#reels-btn").click(function() {
         $('.nav').find(".active").removeClass("active");
@@ -47,6 +48,9 @@ $(document).ready(function(){
         $("#long").removeClass('hidden-video');
         $("#sizzle").addClass('hidden-video');
     });
+    */
+    
+    
     /*Non AJAX Nav
     $("#long, #resume, #about").hide();
     
