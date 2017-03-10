@@ -5,10 +5,12 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-  <!-- Custom Stylesheet for Bootstrap -->
-        <link rel="stylesheet" type="text/css" href="css/custom.css">
   <!-- Optional theme -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Custom Stylesheet for Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
+  <!-- JavaScript Apps -->
+  <script src="js/nav_button.js"></script>
 </head>
 <body>
   <nav class="navbar navbar-default navbar-fixed-top">
@@ -28,10 +30,10 @@
           </div>
           <div class="collapse navbar-collapse" id="main-nav-collapse">
               <ul class='nav navbar-nav navbar-right'>
-                  <li class='btn-nav' id='reels-btn'><a href='#'>Reels</a></li>
-                  <li class='btn-nav' id='resume-btn'><a href='#'>Resume</a></li>
-                  <li class='btn-nav' id='about-btn'><a href='#'>About</a></li>
-                  <li class='btn-nav' id='contact-btn'><a href='#'>Contact</a></li>
+                  <li id='reels-btn'><%= link_to 'Reels', root_path, class: 'btn-nav' %></li>
+                  <li id='resume-btn'><%= link_to 'Resume', resume_path, class: 'btn-nav' %></li>
+                  <li id='about-btn'><%= link_to 'About', about_path, class: 'btn-nav' %></li>
+                  <li id='contact-btn'><%= link_to 'Contact', contact_path, class: 'btn-nav' %></li>
               </ul>
           </div><!-- /.navbar-collapse -->
       </div>    

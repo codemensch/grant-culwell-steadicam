@@ -87,7 +87,7 @@ h5 {
 }
 
 /* Video Styles */
-#sizzle > div, #sizzle > div{
+#sizzle > div, #long > div{
     display: inline-block;
     float: none;
     margin-top: 50px;
@@ -110,8 +110,8 @@ h5 {
     padding-left:10px;
 }
 
-#grant-info {
-    margin-top: -40px;
+.contact-info {
+    padding-top: 35px;
 }
 
 /*
