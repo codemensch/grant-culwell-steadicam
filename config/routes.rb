@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   
   get '/contact' => 'pages#contact'
-  get '/about' => 'pages#about'
+  # get '/about' => 'pages#about'
   get '/resume' => 'pages#resume'
   root 'pages#reels'
   
